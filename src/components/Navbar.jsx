@@ -31,7 +31,7 @@ export default function Navbar() {
           : 'bg-transparent py-4 sm:py-6'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center">
+      <div className="relative z-50 max-w-7xl mx-auto px-6 lg:px-12 flex justify-between items-center">
         {/* Logo */}
         <a href="#hero" className="group flex items-center gap-3 text-luxury-light hover:text-luxury-gold transition-colors duration-300">
           <Camera className="w-5 h-5 md:w-6 md:h-6 text-luxury-gold group-hover:scale-110 transition-transform duration-300 shrink-0" />
