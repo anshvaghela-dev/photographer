@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  /* Luxury Custom Colors */
+  --color-luxury-obsidian: #08090c;   /* Deeper Midnight Obsidian background */
+  --color-luxury-gold: #e5c158;       /* Brilliant Champagne Gold accent */
+  --color-luxury-charcoal: #12141a;   /* Rich dark slate containers */
+  --color-luxury-card: #1a1d24;       /* Slate card container fills */
+  --color-luxury-light: #f5f5f7;      /* High contrast cream text */
+  --color-luxury-gray: #86868b;       /* Muted gray text */
+
+  /* Luxury Font Pairings */
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", "Outfit", system-ui, sans-serif;
+
+  /* Custom Transitions & Keyframes */
+  --animate-fade-in: fadeIn 1s ease-out forwards;
+  --animate-slide-up: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-luxury-obsidian);
+    color: var(--color-luxury-light);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Gold Text Shimmer Animation */
+@keyframes goldShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gold-shine {
+  background-size: 200% auto;
+  animation: goldShine 6s linear infinite;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-luxury-obsidian);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-luxury-card);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-luxury-gold);
+}
+
+/* Scrollbar Hiding Utilities for Carousels & Mobile Tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Safe Area Padding for iOS/Android bottom notch indicators */
+.pb-safe-bottom {
+  padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
+}

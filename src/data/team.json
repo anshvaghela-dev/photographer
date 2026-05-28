@@ -1,0 +1,35 @@
+[
+  {
+    "id": "marcus-vance",
+    "name": "Marcus Vance",
+    "role": "Founder & Creative Director",
+    "specialty": "Fine Art & Editorial Portraiture",
+    "experience": "12+ Years in Luxury Fashion Campaigns",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600&h=800",
+    "bio": "Marcus Vance is an award-winning creative director who blends dramatic chiaroscuro lighting with modern fashion storytelling. Having collaborated with top global luxury brands, his work has been exhibited in galleries across London and Milan.",
+    "quote": "Photography is not about documenting reality, it is about sculpting shadows and capturing an ebbing memory.",
+    "works": ["Chiaroscuro Silhouette", "The Golden Thread", "Monolithic Grace"]
+  },
+  {
+    "id": "elena-rostova",
+    "name": "Elena Rostova",
+    "role": "Principal Cinematographer",
+    "specialty": "Narrative Shorts & Commercials",
+    "experience": "8+ Years in Independent Cinema & Brand Films",
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600&h=800",
+    "bio": "Elena has directed cinematic campaigns across four continents. Her mastery of motion tracking and camera physics gives her work a distinct kinetic, poetic rhythm that connects deep human emotion to commercial brands.",
+    "quote": "Every frame is a canvas; cinematic movement is the brush stroke that guides the human heart.",
+    "works": ["Elysian Dreams", "Desert Nomads"]
+  },
+  {
+    "id": "kai-sorenson",
+    "name": "Kai Sorenson",
+    "role": "Chief Colorist & Senior Editor",
+    "specialty": "Cinematic Rooms & Color Orchestration",
+    "experience": "10+ Years in Digital Grading & Post Production",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=600&h=800",
+    "bio": "Kai is a post-production savant specializing in DaVinci Resolve color correction and soundscape alignment. He translates raw camera logs into moody, immersive worlds, establishing the signature dark slate aesthetics of Aurelia Studio.",
+    "quote": "Colors define the psychological landscape of a scene. The grading suite is where the film finds its soul.",
+    "works": ["Midnight Reverie", "Aether Dynamics"]
+  }
+]

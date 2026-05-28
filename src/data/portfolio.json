@@ -1,0 +1,86 @@
+[
+  {
+    "id": "photo-1",
+    "category": "photography",
+    "title": "Chiaroscuro Silhouette",
+    "tag": "High Fashion / Editorial",
+    "src": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200",
+    "width": 1200,
+    "height": 1800,
+    "alt": "Premium Portfolio Photography of high-fashion model styled in high-contrast chiaroscuro lighting showcasing editorial drape aesthetics for luxury campaigns"
+  },
+  {
+    "id": "cine-1",
+    "category": "cinematic",
+    "title": "Elysian Dreams",
+    "tag": "Short Film / Narrative",
+    "src": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80&w=1200",
+    "videoSrc": "https://assets.mixkit.co/videos/preview/mixkit-cinematic-mountain-peaks-at-sunset-41710-large.mp4",
+    "width": 1200,
+    "height": 675,
+    "alt": "Cinematic Video Editor composition featuring slow-motion golden hour mountain peak sequence representing luxury narrative film editing"
+  },
+  {
+    "id": "photo-2",
+    "category": "photography",
+    "title": "Obsidian Reflection",
+    "tag": "Architecture / Fine Art",
+    "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200",
+    "width": 1200,
+    "height": 800,
+    "alt": "Creative Production Studio capturing modern luxury concrete mansion with obsidian glass reflections and minimalist architectural landscaping"
+  },
+  {
+    "id": "cine-2",
+    "category": "cinematic",
+    "title": "Midnight Reverie",
+    "tag": "Commercial / Brand Film",
+    "src": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=1200",
+    "videoSrc": "https://assets.mixkit.co/videos/preview/mixkit-neon-lights-in-a-rainy-city-at-night-42861-large.mp4",
+    "width": 1200,
+    "height": 675,
+    "alt": "Cinematic Room visual showcasing high-contrast neon rain reflections in Tokyo downtown representing advanced color grading showreel"
+  },
+  {
+    "id": "photo-3",
+    "category": "photography",
+    "title": "The Golden Thread",
+    "tag": "Haute Couture / Portrait",
+    "src": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=1200",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Editorial fashion photography showcasing models in luxury golden couture gown styling with dramatic movement and textures"
+  },
+  {
+    "id": "cine-3",
+    "category": "cinematic",
+    "title": "Aether Dynamics",
+    "tag": "Visual Poem / Concept",
+    "src": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&q=80&w=1200",
+    "videoSrc": "https://assets.mixkit.co/videos/preview/mixkit-clouds-and-sun-rays-timelapse-40114-large.mp4",
+    "width": 1200,
+    "height": 675,
+    "alt": "Luxury cinematic editing representing dark abstract clouds moving at sunset with dramatic high dynamic range grading"
+  },
+  {
+    "id": "photo-4",
+    "category": "photography",
+    "title": "Monolithic Grace",
+    "tag": "Minimalist Fine Art",
+    "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=1200",
+    "width": 1200,
+    "height": 1500,
+    "alt": "Fine art minimalist portrait photo utilizing natural soft shadow overlays and gold jewelry detailing on premium dark background context"
+  },
+  {
+    "id": "cine-4",
+    "category": "cinematic",
+    "title": "Desert Nomads",
+    "tag": "Documentary / Travel",
+    "src": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&q=80&w=1200",
+    "videoSrc": "https://assets.mixkit.co/videos/preview/mixkit-driving-in-a-vast-sandy-desert-41529-large.mp4",
+    "width": 1200,
+    "height": 675,
+    "alt": "Cinematic video edit of luxury offroad vehicle driving across orange Sahara desert dunes under a scorching sun trail"
+  }
+]
